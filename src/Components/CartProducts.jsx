@@ -16,7 +16,7 @@ export const CartProducts = () => {
                 <span>{product.name}</span>
             </div>
             <h5>{product.price}</h5>
-            <button className="Delete" onClick={()=> removeTOCart(product)}>x</button>
+            <span className="Delete" onClick={()=> removeTOCart(product)}>x</span>
         </div>
         
       ))}
